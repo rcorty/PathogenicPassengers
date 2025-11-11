@@ -47,3 +47,38 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache (if any)
+__pycache__/
+*.pyc
+
+# renv cache and library
+renv/library/
+renv/staging/
+renv/.lock
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.tmp
+
+# Logs
+*.log
+
+# Virtual environments (if mixing Python)
+venv/
+.env/
+
+# Large data files (optional)
+*.csv
+*.tsv
+*.rds
+*.RData
+*.feather
+*.parquet
